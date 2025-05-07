@@ -31,3 +31,9 @@ https://localhost:8443/
 ```bash
 kubectl delete pods --all -n kubernetes-dashboard
 ```
+
+## TOKEN
+```bash
+kubectl apply -f dashboard-admin.yaml
+kubectl -n kubernetes-dashboard create token admin-user
+```
