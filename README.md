@@ -24,3 +24,10 @@ ssh -L 8443:localhost:8443 retroreel@192.168.0.100
 ```bash
 https://localhost:8443/
 ```
+
+---------------------------------------------------------------------------------------------------------------
+
+## Reiniciar pods
+```bash
+kubectl delete pods --all -n kubernetes-dashboard
+```
