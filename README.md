@@ -14,7 +14,7 @@ kubectl get pods -n kubernetes-dashboard
 
 ## Despres ens aixequem la porta d'entrada
 ```bash
-kubectl -n kubernetes-dashboard port-forward svc/kubernetes-dashboard-kong-proxy 8443:443
+kubectl -n kubernetes-dashboard port-forward svc/kubernetes-dashboard 8443:443
 ```
 ## Una vegada fet aixo puc anar el meu ordinador portatil i crear un tunel ssh
 ```bash
